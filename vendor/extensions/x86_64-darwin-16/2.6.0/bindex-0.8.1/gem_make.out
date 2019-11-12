@@ -1,0 +1,15 @@
+current directory: /Users/zachellis/environment/hello_app/vendor/gems/bindex-0.8.1/ext/skiptrace
+/Users/zachellis/.rvm/rubies/ruby-2.6.3/bin/ruby -I /Users/zachellis/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20191108-34071-tw0pvv.rb extconf.rb
+creating Makefile
+
+current directory: /Users/zachellis/environment/hello_app/vendor/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/zachellis/environment/hello_app/vendor/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/zachellis/environment/hello_app/vendor/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20191108-34071-11tk3zm/skiptrace/internal
